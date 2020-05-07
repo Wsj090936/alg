@@ -7,8 +7,8 @@
 public class DoTest {
 
     public static void main(String[] args) {
+        System.out.println(149626036 % 64);
         System.out.println(145359313 % 128);
-        System.out.println(125488356 % 128);
-        System.out.println(345650709 % 128);
+        System.out.println(62542216 % 128);
     }
 }
