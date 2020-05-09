@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b6f6230-3a56-4e1e-8d7b-626d1ff48c56" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/linkedList/RemoveByRatio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/linkedList/RemoveMindNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/linkedList/ReverseLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/linkedList/base/DoubleNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,24 +20,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/DoTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="8" column="25" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/linkedList/PrintCommonPart.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="33" selection-start-line="33" selection-end-line="36" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/linkedList/RemoveLastKthNode.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="171">
@@ -46,19 +29,44 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/linkedList/RemoveMindNode.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/linkedList/RemoveByRatio.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="35" selection-start-line="35" selection-end-line="44" selection-end-column="5" />
+            <state relative-caret-position="740">
+              <caret line="37" column="25" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="27" column="3" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/linkedList/RemoveByRatio.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/linkedList/ReverseLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="36" column="24" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="27" />
+            <state relative-caret-position="311">
+              <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/linkedList/base/DoubleNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+              <folding>
+                <element signature="e#187#188#0" expanded="true" />
+                <element signature="e#221#222#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -66,8 +74,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/linkedList/base/Node.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+            <state relative-caret-position="180">
+              <caret line="9" selection-start-line="9" selection-end-line="13" selection-end-column="5" />
               <folding>
                 <element signature="e#178#179#0" expanded="true" />
                 <element signature="e#212#213#0" expanded="true" />
@@ -140,13 +148,15 @@
         <option value="$PROJECT_DIR$/src/main/java/stackAndQueue/GetNearLess.java" />
         <option value="$PROJECT_DIR$/src/main/java/stackAndQueue/MaxRecSize.java" />
         <option value="$PROJECT_DIR$/src/main/java/stackAndQueue/Max_MinGetNum.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/linkedList/base/Node.java" />
         <option value="$PROJECT_DIR$/src/main/java/linkedList/PrintCommonPart.java" />
         <option value="$PROJECT_DIR$/src/main/java/DoTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/linkedList/RemoveLastKthNode.java" />
         <option value="$PROJECT_DIR$/src/main/java/linkedList/RemoveMindNode.java" />
         <option value="$PROJECT_DIR$/src/main/java/linkedList/RemoveByRatio.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/java/linkedList/base/DoubleNode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/linkedList/ReverseLinkedList.java" />
       </list>
     </option>
   </component>
@@ -211,7 +221,8 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="stackAndQueue" type="462c0819:PsiDirectoryNode" />
+              <item name="linkedList" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -247,23 +258,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RemoveByRatio">
+  <component name="RunManager" selected="Application.ReverseLinkedList">
     <configuration name="DoTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DoTest" />
       <module name="alg" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PrintCommonPart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedList.PrintCommonPart" />
-      <module name="alg" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="linkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -307,13 +305,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ReverseLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedList.ReverseLinkedList" />
+      <module name="alg" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="linkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReverseLinkedList" />
         <item itemvalue="Application.RemoveByRatio" />
         <item itemvalue="Application.RemoveMindNode" />
         <item itemvalue="Application.RemoveLastKthNode" />
         <item itemvalue="Application.DoTest" />
-        <item itemvalue="Application.PrintCommonPart" />
       </list>
     </recent_temporary>
   </component>
@@ -354,18 +365,19 @@
       <workItem from="1588218199901" duration="1202000" />
       <workItem from="1588862324320" duration="1001000" />
       <workItem from="1588901400702" duration="123000" />
-      <workItem from="1588946366699" duration="1301000" />
+      <workItem from="1588946366699" duration="1431000" />
+      <workItem from="1589029190157" duration="1534000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34882000" />
+    <option name="totallyTimeSpent" value="36546000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.38785425" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.394332" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -380,7 +392,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.5213523" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.519573" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32798573" />
@@ -442,13 +454,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/stackAndQueue/QueueWithTwoStack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="860">
@@ -484,14 +489,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/linkedList/base/Node.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/linkedList/RemoveMindNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-          <folding>
-            <element signature="e#178#179#0" expanded="true" />
-            <element signature="e#212#213#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="700">
+          <caret line="35" selection-start-line="35" selection-end-line="44" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/linkedList/RemoveByRatio.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="740">
+          <caret line="37" column="25" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -526,6 +534,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="27" column="3" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/linkedList/RemoveLastKthNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -533,17 +548,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/linkedList/RemoveMindNode.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/linkedList/base/Node.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="35" selection-start-line="35" selection-end-line="44" selection-end-column="5" />
+        <state relative-caret-position="180">
+          <caret line="9" selection-start-line="9" selection-end-line="13" selection-end-column="5" />
+          <folding>
+            <element signature="e#178#179#0" expanded="true" />
+            <element signature="e#212#213#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/linkedList/RemoveByRatio.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/linkedList/base/DoubleNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="36" column="24" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="27" />
+        <state relative-caret-position="280">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="e#187#188#0" expanded="true" />
+            <element signature="e#221#222#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/linkedList/ReverseLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
