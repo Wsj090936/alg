@@ -26,20 +26,59 @@ package leetcode.easy;
  */
 public class AddBinary {
     public static String addBinary(String a, String b) {
-        // 将a和b都转化为10进制数
-        return "";
+        int i = a.length() - 1;
+        int j = b.length() - 1;
+        int pre = 0;// 进位
+        StringBuilder sb = new StringBuilder();
+        while (i >= 0 && j >= 0){
+            int sum = pre;
+            sum += a.charAt(i--) - '0';// - '0' 得到的是他的int值
+            sum += b.charAt(j--) - '0';
+            pre = sum / 2;// 2 / 2 = 1 用来判断有没有进位
+            sb.append(sum % 2);
+        }
+        // a多了
+        while (i >= 0){
+            int sum = pre + a.charAt(i--) - '0';
+            pre = sum / 2;
+            sb.append(sum % 2);
+        }
+        // b多了
+        while (j >= 0){
+            int sum = pre + b.charAt(j--) - '0';
+            pre = sum / 2;
+            sb.append(sum % 2);
+        }
+        // 有进位
+        if(pre == 1){
+            sb.append(pre);
+        }
+        return sb.reverse().toString();
     }
 
-    private static int parseStringtoTen(String str){
-        int val = 0;
-        int factor = 0;
-        for(int i = str.length() - 1 ;i >= 0;i--){
-            val += Integer.valueOf(str.substring(i,i + 1)) * Math.pow(2,factor++);
-        }
-        return val;
-    }
+//    private static int parseStringtoTen(String str){
+//        int val = 0;
+//        int factor = 0;
+//        for(int i = str.length() - 1 ;i >= 0;i--){
+//            val += Integer.valueOf(str.substring(i,i + 1)) * Math.pow(2,factor++);
+//        }
+//        return val;
+//    }
+//    private static String parseTenToBinary(int num){
+//        if(num == 0){
+//            return "0";
+//        }
+//        String res = "";
+//        int pre = 0;
+//        while (num > 0){
+//            pre = num % 2;
+//            num /= 2;
+//            res = pre + res;
+//        }
+//        return res;
+//    }
 
     public static void main(String[] args) {
-        System.out.println(parseStringtoTen("11"));
+        System.out.println(addBinary("10","10"));
     }
 }
