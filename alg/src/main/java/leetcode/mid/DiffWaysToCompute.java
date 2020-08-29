@@ -1,7 +1,5 @@
 package leetcode.mid;
 
-import com.sun.deploy.util.StringUtils;
-
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -40,6 +38,12 @@ public class DiffWaysToCompute {
 
     private static Map<String,List<Integer>> map = new HashMap<>();
 
+    /**
+     * 分治递归，比较好理解
+     * 就是将式子拆分为左右两部分
+     * @param input
+     * @return
+     */
     public static List<Integer> diffWaysToCompute(String input) {
         if(input == null || input.length() == 0){
             return new ArrayList<>();
@@ -83,6 +87,68 @@ public class DiffWaysToCompute {
         return res;
 
     }
+
+    /**
+     * 动态规划的方式
+     * @param input
+     * @return
+     */
+    private static ArrayList diffWaysToComputeV2(String input){
+        if(input == null || input.length() == 0){
+            return new ArrayList<>();
+        }
+        // 首先将数字和运算符按顺序拆分出来
+        List<Integer> numList = new ArrayList<>();
+        List<Character> opList = new ArrayList<>();
+        int num = 0;
+        for (int i = 0; i < input.length();i++){
+            char ch = input.charAt(i);
+            if(isOperate(ch)){
+                opList.add(ch);
+                numList.add(num);
+                num = 0;
+                continue;
+            }
+            // 数字
+            num = num * 10 + input.charAt(i) - '0';
+        }
+        numList.add(num);
+        int numSize = numList.size();
+        // 动态规划，dp[x][y] 表示从x 到 y的下标的数字计算的结果集
+        ArrayList[][] dp = new ArrayList[numSize][numSize];
+        // 初始化
+        for(int i = 0;i < numSize;i++){
+            ArrayList<Integer> res = new ArrayList<>();
+            res.add(numList.get(i));
+            dp[i][i] = res;
+        }
+        //两个数字相互计算开始
+        for(int n = 2; n <= numSize;n++ ){
+            // 开始的下标
+            for(int i = 0; i < numSize;i++){
+                // 结束下标
+                int j = i + n - 1;
+                if(j >= numSize){
+                    break;
+                }
+                ArrayList<Integer> res = new ArrayList<>();
+                for(int x = i; x < j;x++){
+                    List<Integer> listLeft = dp[i][x];
+                    List<Integer> listRight = dp[x + 1][j];
+                    for (Integer left : listLeft) {
+                        for (Integer right : listRight) {
+                            // 第x个数字的下标就是运算符的位置
+                            char op = opList.get(x);
+                            res.add(calculate(left, op, right));
+                        }
+                    }
+                    dp[i][j] = res;
+                }
+            }
+        }
+        return dp[0][numSize - 1];
+    }
+
     private static boolean isOperate(char c){
         return c == '+' || c == '-' || c == '*';
     }
@@ -100,7 +166,17 @@ public class DiffWaysToCompute {
     }
 
     public static void main(String[] args) {
-        List<Integer> list = diffWaysToCompute("2*3-4*5");
+        long start = System.currentTimeMillis();
+        List<Integer> list = diffWaysToCompute("2*3-4*5-8*9+10-11");
+        long end1 = System.currentTimeMillis();
+
         System.out.println(list.toString());
+        System.out.println(end1 - start);
+        ArrayList list1 = diffWaysToComputeV2("2*3-4*5-8*9+10-11");
+        long end2 = System.currentTimeMillis();
+
+        System.out.println(list1.toString());
+        System.out.println(end2 - start);
+
     }
 }
