@@ -42,5 +42,8 @@ public class DeleteDuplicates {
         return head;
     }
 
+    public static void main(String[] args) {
 
+
+    }
 }
