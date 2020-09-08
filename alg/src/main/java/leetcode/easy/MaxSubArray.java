@@ -31,6 +31,22 @@ public class MaxSubArray {
         return maxValue;
 
     }
+    public static int maxSubArrayV2(int[] nums){
+        int pre = 0;
+        int maxValue = nums[0];
+        for(int each : nums){
+            // 加起来比自己都小，说明断了
+            if(pre + each < each){
+                pre = each;
+            }else{
+                pre = pre + each;
+            }
+            if(pre > maxValue){
+                maxValue = pre;
+            }
+        }
+        return maxValue;
+    }
 
     public static void main(String[] args) {
         int[] arr = {-2,1,-3,4,-1,2,1,-5,4};
