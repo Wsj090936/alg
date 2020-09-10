@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b6f6230-3a56-4e1e-8d7b-626d1ff48c56" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/easy/MajorityElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/mid/PredictPartyVictory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/se/Singleton/LazySingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/easy/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/mid/StoneGameII.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se/Singleton/LazySingletonV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/Singleton/LazySingletonV2.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,36 +19,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/se/Singleton/HungryEnum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/se/Singleton/HungryStatic.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="457">
-              <caret line="40" column="36" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/single.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="13" selection-start-column="13" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/stackAndQueue/MaxRecSize.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -73,8 +43,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/easy/MaxSubArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="633">
-              <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+            <state relative-caret-position="960">
+              <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -82,12 +52,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/easy/MajorityElement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
+            <state relative-caret-position="2300">
               <caret line="117" column="28" selection-start-line="117" selection-start-column="28" selection-end-line="117" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2607#2608#0" expanded="true" />
-                <element signature="e#2643#2644#0" expanded="true" />
+                <element signature="e#2648#2649#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -96,17 +66,44 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/mid/PredictPartyVictory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="31">
-              <caret line="51" column="4" lean-forward="true" selection-start-line="51" selection-start-column="4" selection-end-line="72" selection-end-column="50" />
+            <state relative-caret-position="1020">
+              <caret line="51" column="4" selection-start-line="51" selection-start-column="4" selection-end-line="72" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/se/Singleton/LazySingleton.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/se/Singleton/LazySingletonV2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/easy/Message.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="111">
+              <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="47" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/se/Singleton/LazySingleton.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/mid/StoneGameII.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+            <state relative-caret-position="77">
+              <caret line="33" column="4" lean-forward="true" selection-start-line="33" selection-start-column="4" selection-end-line="52" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -142,9 +139,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/main/java/linkedList/base/DoubleNode.java" />
-        <option value="$PROJECT_DIR$/src/main/java/linkedList/ReverseLinkedList.java" />
         <option value="$PROJECT_DIR$/src/main/java/linkedList/ReversePartList.java" />
         <option value="$PROJECT_DIR$/src/main/java/linkedList/JosephusProblem.java" />
         <option value="$PROJECT_DIR$/src/main/java/linkedList/IsDuiChen.java" />
@@ -193,6 +187,9 @@
         <option value="$PROJECT_DIR$/src/main/java/leetcode/mid/PredictPartyVictory.java" />
         <option value="$PROJECT_DIR$/src/main/java/se/Singleton/NotHungry.java" />
         <option value="$PROJECT_DIR$/src/main/java/se/Singleton/LazySingleton.java" />
+        <option value="$PROJECT_DIR$/src/main/java/se/Singleton/LazySingletonV2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/leetcode/easy/Message.java" />
+        <option value="$PROJECT_DIR$/src/main/java/leetcode/mid/StoneGameII.java" />
       </list>
     </option>
   </component>
@@ -205,10 +202,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-12" />
-    <option name="y" value="-12" />
-    <option name="width" value="1944" />
-    <option name="height" value="1044" />
+    <option name="x" value="949" />
+    <option name="y" value="-11" />
+    <option name="width" value="983" />
+    <option name="height" value="1043" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -218,7 +215,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -295,7 +292,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -324,22 +321,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HungryStatic">
+  <component name="RunManager" selected="Application.LazySingletonV2">
     <configuration name="AddDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.easy.AddDigits" />
-      <module name="alg" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DistanceBetweenBusStops" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.easy.DistanceBetweenBusStops" />
       <module name="alg" />
       <extension name="coverage">
         <pattern>
@@ -390,13 +374,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LazySingletonV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="se.Singleton.LazySingletonV2" />
+      <module name="alg" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="se.Singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LazySingletonV2" />
         <item itemvalue="Application.HungryStatic" />
         <item itemvalue="Application.AddDigits" />
         <item itemvalue="Application.IsScramble" />
         <item itemvalue="Application.KthSmallestPrimeFraction" />
-        <item itemvalue="Application.DistanceBetweenBusStops" />
       </list>
     </recent_temporary>
   </component>
@@ -477,18 +474,21 @@
       <workItem from="1599146610147" duration="1456000" />
       <workItem from="1599162790334" duration="611000" />
       <workItem from="1599566561776" duration="6147000" />
-      <workItem from="1599654008211" duration="4223000" />
+      <workItem from="1599654008211" duration="4476000" />
+      <workItem from="1599724658166" duration="848000" />
+      <workItem from="1599737350844" duration="1723000" />
+      <workItem from="1599743239388" duration="2522000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137836000" />
+    <option name="totallyTimeSpent" value="143182000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2582996" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.5092437" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -503,13 +503,13 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.49466193" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.49376115" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32798573" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" />
-      <window_info anchor="bottom" id="Alibaba Cloud View" order="13" />
+      <window_info anchor="bottom" id="Alibaba Cloud View" order="13" weight="0.32976827" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -621,27 +621,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/easy/LongestCommonPrefix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="920">
-          <caret line="46" column="17" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/base/ListNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/linkedList/NodePartition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="25" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/easy/MergeTwoLists.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="740">
@@ -963,6 +942,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/se/Singleton/HungryStatic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="40" column="36" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/single.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -987,6 +976,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/easy/MaxSubArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/easy/MajorityElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2300">
+          <caret line="117" column="28" selection-start-line="117" selection-start-column="28" selection-end-line="117" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2607#2608#0" expanded="true" />
+            <element signature="e#2648#2649#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/mid/PredictPartyVictory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="51" column="4" selection-start-line="51" selection-start-column="4" selection-end-line="72" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/se/Singleton/LazySingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/se/Singleton/LazySingletonV2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/stackAndQueue/Max_MinGetNum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="700">
@@ -994,46 +1023,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/se/Singleton/HungryStatic.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/easy/Message.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="40" column="36" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="111">
+          <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="47" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/easy/MaxSubArray.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/mid/StoneGameII.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="633">
-          <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/easy/MajorityElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="117" column="28" selection-start-line="117" selection-start-column="28" selection-end-line="117" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2607#2608#0" expanded="true" />
-            <element signature="e#2643#2644#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/mid/PredictPartyVictory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="51" column="4" lean-forward="true" selection-start-line="51" selection-start-column="4" selection-end-line="72" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/se/Singleton/LazySingleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        <state relative-caret-position="77">
+          <caret line="33" column="4" lean-forward="true" selection-start-line="33" selection-start-column="4" selection-end-line="52" selection-end-column="24" />
         </state>
       </provider>
     </entry>

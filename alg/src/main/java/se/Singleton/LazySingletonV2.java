@@ -18,4 +18,5 @@ public class LazySingletonV2 {
     public static LazySingletonV2 getInstance(){
         return Inner.INSTANCE;
     }
+
 }
