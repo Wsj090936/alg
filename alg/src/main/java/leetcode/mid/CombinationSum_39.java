@@ -1,6 +1,7 @@
 package leetcode.mid;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -36,15 +37,15 @@ import java.util.List;
  */
 public class CombinationSum_39 {
     // 基本回溯，还可优化，先排序，记录每次累加的值，如果大于target了，直接跳出循环,进行剪枝
-    public List<List<Integer>> combinationSum(int[] candidates, int target) {
+    public List<List<Integer>> combinationSum_39(int[] candidates, int target) {
         if(candidates == null || candidates.length <= 0){
             return new ArrayList<>();
         }
         List<List<Integer>> res = new ArrayList<>();
-        dfs(candidates,0,new ArrayList<>(),target,res);
+        dfs_39(candidates,0,new ArrayList<>(),target,res);
         return res;
     }
-    private void dfs(int[] candidates,int start, List<Integer> temp,int target,List<List<Integer>> res){
+    private void dfs_39(int[] candidates,int start, List<Integer> temp,int target,List<List<Integer>> res){
         if(target < 0){
             return;
         }
@@ -54,10 +55,44 @@ public class CombinationSum_39 {
         }
         for(int i = start;i < candidates.length;i++){
             temp.add(candidates[i]);
-            dfs(candidates,i,temp,target - candidates[i],res);
+            dfs_39(candidates,i,temp,target - candidates[i],res);
             // 递归结束再移除元素
             temp.remove(temp.size() - 1);
         }
     }
 
+
+    public static List<List<Integer>> combinationSum_40(int[] candidates, int target) {
+        if(candidates == null || candidates.length <= 0){
+            return new ArrayList<>();
+        }
+        Arrays.sort(candidates);
+        List<List<Integer>> res = new ArrayList<>();
+        dfs_40(candidates,0,new ArrayList<>(),target,res);
+        return res;
+    }
+    private static void dfs_40(int[] candidates,int start, List<Integer> temp,int target,List<List<Integer>> res){
+
+        if(target < 0){
+            return;
+        }
+        if(target == 0){// 说明找到了
+            res.add(new ArrayList<>(temp));
+            return;
+        }
+        for(int i = start;i < candidates.length;i++){
+            if(i > start && candidates[i] == candidates[i - 1]){
+                continue;
+            }
+            temp.add(candidates[i]);
+            dfs_40(candidates,i + 1,temp,target - candidates[i],res);
+            // 递归结束再移除元素
+            temp.remove(temp.size() - 1);
+        }
+    }
+
+    public static void main(String[] args) {
+        int[] ints = {2, 5, 2, 1, 2};
+        combinationSum_40(ints,5);
+    }
 }
