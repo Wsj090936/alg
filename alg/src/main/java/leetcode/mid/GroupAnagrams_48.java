@@ -59,5 +59,9 @@ public class GroupAnagrams_48 {
         getArr(map,strs,path,start + 1,res);
     }
 
+    public static void main(String[] args) {
+        Long l = -1L;
+        System.out.println(l.compareTo(0L));
+    }
 
 }

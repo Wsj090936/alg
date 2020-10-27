@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b6f6230-3a56-4e1e-8d7b-626d1ff48c56" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/easy/LowestCommonAncestor_235.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/mid/GroupAnagrams_48.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/mid/Rotate_48.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/easy/IsUgly_263.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/mid/GroupAnagrams_48.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/mid/GroupAnagrams_48.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,22 +19,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/easy/BinaryTreePaths_257.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/easy/LowestCommonAncestor_235.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="39" column="14" lean-forward="true" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
+            <state relative-caret-position="780">
+              <caret line="39" column="14" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -43,17 +30,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/mid/Rotate_48.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="431">
-              <caret line="67" column="5" lean-forward="true" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
+            <state relative-caret-position="1340">
+              <caret line="67" column="5" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/mid/GroupAnagrams_48.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="292">
+              <caret line="32" column="47" lean-forward="true" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="47" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/mid/GroupAnagrams_48.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/easy/IsUgly_263.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="35" selection-start-line="35" selection-end-line="35" selection-end-column="54" />
+            <state relative-caret-position="180">
+              <caret line="9" selection-start-line="9" selection-end-line="18" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -156,7 +152,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/leetcode/easy/Gentrate.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/easy/Gentrate_118.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/mid/IntToRoman.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/mid/ThreeSum.java" />
@@ -207,6 +202,7 @@
         <option value="$PROJECT_DIR$/src/main/java/leetcode/easy/LowestCommonAncestor_235.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/mid/Rotate_48.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/mid/GroupAnagrams_48.java" />
+        <option value="$PROJECT_DIR$/src/main/java/leetcode/easy/IsUgly_263.java" />
       </list>
     </option>
   </component>
@@ -272,6 +268,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="easy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="mid" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -307,9 +312,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.IsPalindrome_234">
+  <component name="RunManager" selected="Application.GroupAnagrams_48">
     <configuration name="CombinationSum_39" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.mid.CombinationSum_39" />
+      <module name="alg" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.mid.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GroupAnagrams_48" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.mid.GroupAnagrams_48" />
       <module name="alg" />
       <extension name="coverage">
         <pattern>
@@ -347,19 +365,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NextPermutation_31" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.mid.NextPermutation_31" />
-      <module name="alg" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.mid.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ReverseBits_190" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.easy.ReverseBits_190" />
       <module name="alg" />
@@ -375,11 +380,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GroupAnagrams_48" />
         <item itemvalue="Application.IsPalindrome_234" />
         <item itemvalue="Application.MyStack_225" />
         <item itemvalue="Application.CombinationSum_39" />
         <item itemvalue="Application.ReverseBits_190" />
-        <item itemvalue="Application.NextPermutation_31" />
       </list>
     </recent_temporary>
   </component>
@@ -505,12 +510,14 @@
       <workItem from="1603372881811" duration="3092000" />
       <workItem from="1603417611480" duration="616000" />
       <workItem from="1603547178885" duration="1811000" />
-      <workItem from="1603714714003" duration="3686000" />
+      <workItem from="1603714714003" duration="4080000" />
+      <workItem from="1603773025911" duration="645000" />
+      <workItem from="1603807410364" duration="276000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="279466000" />
+    <option name="totallyTimeSpent" value="280781000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -525,7 +532,7 @@
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31578946" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3263158" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -540,7 +547,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32976827" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49959514" weight="0.4644128" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49959514" weight="0.46263346" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50040483" side_tool="true" weight="0.4688057" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32798573" />
@@ -820,13 +827,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/mid/ThreeSumClosest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/mid/FourSum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1100">
@@ -1140,6 +1140,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/easy/BinaryTreePaths_257.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/easy/LowestCommonAncestor_235.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="39" column="14" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/mid/Rotate_48.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1340">
+          <caret line="67" column="5" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/easy/MinStack_155.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
@@ -1194,34 +1218,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/easy/BinaryTreePaths_257.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/easy/LowestCommonAncestor_235.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="39" column="14" lean-forward="true" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/mid/Rotate_48.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="67" column="5" lean-forward="true" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/mid/GroupAnagrams_48.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="35" selection-start-line="35" selection-end-line="35" selection-end-column="54" />
+        <state relative-caret-position="292">
+          <caret line="32" column="47" lean-forward="true" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/easy/IsUgly_263.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" selection-start-line="9" selection-end-line="18" selection-end-column="24" />
         </state>
       </provider>
     </entry>
