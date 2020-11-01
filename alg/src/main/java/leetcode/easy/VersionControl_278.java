@@ -23,5 +23,6 @@ public class VersionControl_278 {
     }
 
     private boolean isBadVersion(int mid) {
+        return true;
     }
 }
