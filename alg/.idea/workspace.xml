@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b6f6230-3a56-4e1e-8d7b-626d1ff48c56" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/easy/FizzBuzz_412.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/mid/DeleteDuplicates_82.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/easy/ThirdMax_414.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/mid/Partition_86.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,30 +19,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/mid/RemoveDuplicates_80.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/easy/LongestPalindrome_409.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="36" column="45" selection-start-line="36" selection-start-column="45" selection-end-line="36" selection-end-column="45" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/mid/Search_81.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
+            <state relative-caret-position="1140">
               <caret line="57" column="9" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
             </state>
           </provider>
@@ -51,7 +30,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/easy/FizzBuzz_412.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
+            <state relative-caret-position="900">
               <caret line="46" selection-start-line="46" selection-end-line="58" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -60,14 +39,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/mid/DeleteDuplicates_82.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+            <state relative-caret-position="88">
+              <caret line="45" column="34" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/easy/ThirdMax_414.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="71">
+              <caret line="49" column="21" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/mid/Partition_86.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="471">
+              <caret line="45" column="24" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -158,8 +155,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/leetcode/easy/Permute_46.java" />
-        <option value="$PROJECT_DIR$/src/main/java/leetcode/easy/IsPowerOfTwo_231.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/easy/MyQueue_232.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/easy/IsPalindrome_234.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/easy/IsAnagram_242.java" />
@@ -209,6 +204,8 @@
         <option value="$PROJECT_DIR$/src/main/java/leetcode/easy/FizzBuzz.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/easy/FizzBuzz_412.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/mid/DeleteDuplicates_82.java" />
+        <option value="$PROJECT_DIR$/src/main/java/leetcode/easy/ThirdMax_414.java" />
+        <option value="$PROJECT_DIR$/src/main/java/leetcode/mid/Partition_86.java" />
       </list>
     </option>
   </component>
@@ -233,6 +230,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -280,7 +278,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -536,12 +533,13 @@
       <workItem from="1606737547674" duration="4817000" />
       <workItem from="1606819939992" duration="1187000" />
       <workItem from="1606823008666" duration="1570000" />
-      <workItem from="1606905185319" duration="4718000" />
+      <workItem from="1606905185319" duration="4889000" />
+      <workItem from="1607146088461" duration="1273000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="339963000" />
+    <option name="totallyTimeSpent" value="341407000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -556,7 +554,7 @@
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33522266" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34089068" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -567,11 +565,11 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.45632797" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.42602494" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.42602494" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32976827" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49959514" weight="0.4395018" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49959514" weight="0.4377224" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50040483" side_tool="true" weight="0.4688057" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32798573" />
@@ -903,13 +901,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/mid/DeleteDuplicates_82.java</url>
-          <line>51</line>
+          <line>52</line>
           <properties />
           <option name="timeStamp" value="68" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/mid/DeleteDuplicates_82.java</url>
-          <line>34</line>
+          <line>35</line>
           <properties />
           <option name="timeStamp" value="70" />
         </line-breakpoint>
@@ -922,24 +920,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/easy/VersionControl_278.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-          <folding>
-            <element signature="e#499#500#0" expanded="true" />
-            <element signature="e#526#527#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/mid/MyPow_50.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="940">
-          <caret line="47" column="38" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/easy/MoveZeroes_283.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
@@ -1271,6 +1251,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/mid/Search_81.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="57" column="9" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/easy/FizzBuzz_412.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="46" selection-start-line="46" selection-end-line="58" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/mid/Search_33.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="780">
@@ -1314,30 +1311,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/mid/Search_81.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="57" column="9" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/easy/FizzBuzz_412.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="46" selection-start-line="46" selection-end-line="58" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/mid/DeleteDuplicates_82.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+        <state relative-caret-position="88">
+          <caret line="45" column="34" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/easy/ThirdMax_414.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="49" column="21" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/mid/Partition_86.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="45" column="24" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
         </state>
       </provider>
     </entry>
