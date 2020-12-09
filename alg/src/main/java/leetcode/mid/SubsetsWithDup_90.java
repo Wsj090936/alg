@@ -1,6 +1,7 @@
 package leetcode.mid;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -28,6 +29,7 @@ import java.util.List;
 public class SubsetsWithDup_90 {
     static List<List<Integer>> res = new ArrayList<>();
     public static List<List<Integer>> subsetsWithDup(int[] nums) {
+        Arrays.sort(nums);
         doSubSet(nums,new ArrayList<>(),0);
         return res;
     }
