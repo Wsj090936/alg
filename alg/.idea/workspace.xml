@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b6f6230-3a56-4e1e-8d7b-626d1ff48c56" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/easy/MinMoves_453.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/mid/RestoreIpAddresses_93.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/easy/FindContentChildren_455.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/mid/InorderTraversal_94.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,28 +19,31 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/se/Xb.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/mid/RestoreIpAddresses_93.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+            <state relative-caret-position="20">
+              <caret line="54" column="19" selection-start-line="54" selection-start-column="19" selection-end-line="54" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/easy/MinMoves_453.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/easy/FindContentChildren_455.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="26" column="28" selection-start-line="26" selection-end-line="27" />
+            <state relative-caret-position="197">
+              <caret line="38" selection-start-line="38" selection-end-line="40" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/mid/RestoreIpAddresses_93.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/mid/InorderTraversal_94.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="75" column="22" selection-start-line="75" selection-start-column="22" selection-end-line="75" selection-end-column="22" />
+            <state relative-caret-position="351">
+              <caret line="52" column="13" lean-forward="true" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -156,8 +159,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/leetcode/mid/CanJump_55.java" />
-        <option value="$PROJECT_DIR$/src/main/java/leetcode/easy/NumArray_303.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/mid/Merge_56.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/mid/GenerateMatrix_59.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/easy/IsPowerOfThree_326.java" />
@@ -207,6 +208,8 @@
         <option value="$PROJECT_DIR$/src/main/java/se/Xb.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/easy/MinMoves_453.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/mid/RestoreIpAddresses_93.java" />
+        <option value="$PROJECT_DIR$/src/main/java/leetcode/easy/FindContentChildren_455.java" />
+        <option value="$PROJECT_DIR$/src/main/java/leetcode/mid/InorderTraversal_94.java" />
       </list>
     </option>
   </component>
@@ -231,6 +234,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -285,8 +290,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -315,13 +318,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Xb">
-    <configuration name="GrayCode_89" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.mid.GrayCode_89" />
+  <component name="RunManager" selected="Application.FindContentChildren_455">
+    <configuration name="FindContentChildren_455" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.easy.FindContentChildren_455" />
       <module name="alg" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.mid.*" />
+          <option name="PATTERN" value="leetcode.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -383,11 +386,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindContentChildren_455" />
         <item itemvalue="Application.Xb" />
         <item itemvalue="Application.NumDecodings_91" />
         <item itemvalue="Application.XbSon" />
         <item itemvalue="Application.SubsetsWithDup_90" />
-        <item itemvalue="Application.GrayCode_89" />
       </list>
     </recent_temporary>
   </component>
@@ -553,12 +556,14 @@
       <workItem from="1607603004797" duration="5871000" />
       <workItem from="1607753923222" duration="1879000" />
       <workItem from="1607909495937" duration="791000" />
-      <workItem from="1607946925614" duration="3175000" />
+      <workItem from="1607946925614" duration="3561000" />
+      <workItem from="1607995586580" duration="28000" />
+      <workItem from="1608355126753" duration="2003000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="370652000" />
+    <option name="totallyTimeSpent" value="373069000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -573,7 +578,7 @@
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.4008097" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.4137652" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -588,7 +593,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32976827" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49959514" weight="0.42602494" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49959514" weight="0.4252669" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50040483" side_tool="true" weight="0.4688057" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32798573" />
@@ -969,20 +974,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/easy/IsPalindrome_125.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/easy/ReverseString_344.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="740">
-          <caret line="37" column="1" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/mid/UniquePaths_62.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="840">
@@ -1303,6 +1294,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/se/Xb.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/easy/MinMoves_453.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="26" column="28" selection-start-line="26" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/easy/ArrangeCoins_441.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
@@ -1364,24 +1369,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/se/Xb.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/easy/MinMoves_453.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="26" column="28" selection-start-line="26" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/mid/RestoreIpAddresses_93.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="75" column="22" selection-start-line="75" selection-start-column="22" selection-end-line="75" selection-end-column="22" />
+        <state relative-caret-position="20">
+          <caret line="54" column="19" selection-start-line="54" selection-start-column="19" selection-end-line="54" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/easy/FindContentChildren_455.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="38" selection-start-line="38" selection-end-line="40" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/mid/InorderTraversal_94.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="52" column="13" lean-forward="true" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
