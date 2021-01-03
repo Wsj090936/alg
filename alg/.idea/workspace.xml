@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b6f6230-3a56-4e1e-8d7b-626d1ff48c56" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/easy/IslandPerimeter_463.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/mid/LevelOrder_102.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/easy/FindComplement_476.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/mid/ZigzagLevelOrder_103.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,10 +19,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/mid/IsValidBST_98.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/mid/LevelOrder_102.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+            <state relative-caret-position="1220">
+              <caret line="61" column="5" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -31,19 +31,23 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/easy/IslandPerimeter_463.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/easy/FindComplement_476.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="35" selection-end-column="19" />
+            <state relative-caret-position="231">
+              <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+              <folding>
+                <element signature="e#456#457#0" expanded="true" />
+                <element signature="e#492#493#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/mid/LevelOrder_102.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/mid/ZigzagLevelOrder_103.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="34" column="39" lean-forward="true" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
+            <state relative-caret-position="248">
+              <caret line="54" column="46" lean-forward="true" selection-start-line="54" selection-start-column="46" selection-end-line="54" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -54,7 +58,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/Queue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="631">
+            <state relative-caret-position="2940">
               <caret line="180" column="12" selection-start-line="180" selection-start-column="12" selection-end-line="180" selection-end-column="12" />
             </state>
           </provider>
@@ -159,8 +163,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/leetcode/easy/ReverseVowels_345.java" />
-        <option value="$PROJECT_DIR$/src/main/java/leetcode/easy/Intersection_349.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/mid/MinPathSum_64.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/mid/SimplifyPath_71.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/mid/IsPerfectSquare_367.java" />
@@ -210,6 +212,8 @@
         <option value="$PROJECT_DIR$/src/main/java/leetcode/mid/IsValidBST_98.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/easy/IslandPerimeter_463.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/mid/LevelOrder_102.java" />
+        <option value="$PROJECT_DIR$/src/main/java/leetcode/easy/FindComplement_476.java" />
+        <option value="$PROJECT_DIR$/src/main/java/leetcode/mid/ZigzagLevelOrder_103.java" />
       </list>
     </option>
   </component>
@@ -234,7 +238,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -290,6 +293,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -318,7 +322,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FindContentChildren_455">
+  <component name="RunManager" selected="Application.FindComplement_476">
+    <configuration name="FindComplement_476" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.easy.FindComplement_476" />
+      <module name="alg" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FindContentChildren_455" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.easy.FindContentChildren_455" />
       <module name="alg" />
@@ -332,8 +349,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumDecodings_91" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.mid.NumDecodings_91" />
+    <configuration name="LevelOrder_102" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.mid.LevelOrder_102" />
       <module name="alg" />
       <extension name="coverage">
         <pattern>
@@ -345,8 +362,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubsetsWithDup_90" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.mid.SubsetsWithDup_90" />
+    <configuration name="NumDecodings_91" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.mid.NumDecodings_91" />
       <module name="alg" />
       <extension name="coverage">
         <pattern>
@@ -371,26 +388,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="XbSon" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="se.XbSon" />
-      <module name="alg" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="se.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindComplement_476" />
+        <item itemvalue="Application.LevelOrder_102" />
         <item itemvalue="Application.FindContentChildren_455" />
         <item itemvalue="Application.Xb" />
         <item itemvalue="Application.NumDecodings_91" />
-        <item itemvalue="Application.XbSon" />
-        <item itemvalue="Application.SubsetsWithDup_90" />
       </list>
     </recent_temporary>
   </component>
@@ -563,12 +567,14 @@
       <workItem from="1608519796008" duration="1199000" />
       <workItem from="1608988274174" duration="1988000" />
       <workItem from="1609119148165" duration="624000" />
-      <workItem from="1609160112674" duration="1161000" />
+      <workItem from="1609160112674" duration="1438000" />
+      <workItem from="1609205140490" duration="1423000" />
+      <workItem from="1609647494433" duration="1913000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="381973000" />
+    <option name="totallyTimeSpent" value="385586000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -583,7 +589,7 @@
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.4493927" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30445343" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -598,7 +604,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32976827" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49959514" weight="0.4224599" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49959514" weight="0.4217082" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50040483" side_tool="true" weight="0.4688057" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32798573" />
@@ -979,23 +985,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/easy/FirstUniqChar_387.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="26" selection-start-line="26" selection-end-line="50" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/mid/SearchMatrix_74.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/easy/FindTheDifference_389.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1060">
@@ -1312,6 +1301,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/mid/IsValidBST_98.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="800">
+          <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/easy/IslandPerimeter_463.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" selection-start-line="17" selection-end-line="35" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2940">
+          <caret line="180" column="12" selection-start-line="180" selection-start-column="12" selection-end-line="180" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="11680">
@@ -1366,34 +1379,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/mid/IsValidBST_98.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/mid/LevelOrder_102.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+        <state relative-caret-position="1220">
+          <caret line="61" column="5" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/easy/IslandPerimeter_463.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/easy/FindComplement_476.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="35" selection-end-column="19" />
+        <state relative-caret-position="231">
+          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+          <folding>
+            <element signature="e#456#457#0" expanded="true" />
+            <element signature="e#492#493#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/Queue.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/mid/ZigzagLevelOrder_103.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="631">
-          <caret line="180" column="12" selection-start-line="180" selection-start-column="12" selection-end-line="180" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/mid/LevelOrder_102.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="34" column="39" lean-forward="true" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
+        <state relative-caret-position="248">
+          <caret line="54" column="46" lean-forward="true" selection-start-line="54" selection-start-column="46" selection-end-line="54" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
