@@ -51,4 +51,5 @@ public class BuildTree_106 {
         node.right = buildTree(inorder,postorder,midRoot + 1,inRight,postLeft + leftNum,postRight - 1);
         return node;
     }
+
 }
