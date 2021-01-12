@@ -3,6 +3,10 @@ package leetcode.mid;
 import leetcode.base.ListNode;
 import leetcode.base.TreeNode;
 
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.concurrent.ConcurrentHashMap;
+
 /**
  * 109. 有序链表转换二叉搜索树
  * 给定一个单链表，其中的元素按升序排序，将其转换为高度平衡的二叉搜索树。
@@ -56,5 +60,9 @@ public class SortedListToBST_109 {
         root.left = sortedListToBST(head);
         root.right = sortedListToBST(rightHead);
         return root;
+    }
+
+    public static void main(String[] args) {
+        new ConcurrentHashMap<>();
     }
 }
