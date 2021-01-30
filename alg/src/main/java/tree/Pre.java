@@ -19,12 +19,13 @@ public class Pre {
             while (!stack.isEmpty()){
                 TreeNode pop = stack.pop();
                 System.out.println(pop.val);
-                if(pop.left != null){
-                    stack.push(pop);
-                }
                 if(pop.right != null){
-                    stack.push(pop);
+                    stack.push(pop.right);
                 }
+                if(pop.left != null){
+                    stack.push(pop.left);
+                }
+
             }
         }
     }
