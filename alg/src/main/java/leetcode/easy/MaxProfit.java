@@ -38,4 +38,33 @@ public class MaxProfit {
         }
         return ans;
     }
+    public int maxProfit_V1(int[] prices) {
+        if(prices == null || prices.length <= 0){
+            return 0;
+        }
+        int minVal = prices[0];
+        int ans = 0;
+        for(int i = 0;i < prices.length;i++){
+            minVal = Math.min(minVal,prices[i]);// 找到最小的
+            ans = Math.max(ans,prices[i] - minVal);
+        }
+        return ans;
+    }
+    // 使用DP dp[i][0] = Math.max(dp[i - 1][0],dp[i - 1][1] + prices[i]);
+    // dp[i][1] = Math.max(dp[i - 1][1],-prices[i]);
+    public int maxProfit_dp(int[] prices){
+        if(prices == null || prices.length <= 0){
+            return 0;
+        }
+        int[][] dp = new int[prices.length][2];
+        dp[0][0] = 0;// 第一天不持股，收益为0
+        dp[0][1] = -prices[0];// 第一天持股，收益为 -
+        for(int i = 1;i < prices.length;i++){
+            // 当天不持股的收益
+            dp[i][0] = Math.max(dp[i - 1][0],dp[i - 1][1] + prices[i]);// 前一天不持股，和前一天买入，今天卖出的收益
+            dp[i][1] = Math.max(dp[i - 1][1],-prices[i]);
+        }
+
+        return dp[prices.length - 1][0];
+    }
 }

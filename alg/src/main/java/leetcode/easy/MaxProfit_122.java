@@ -36,9 +36,26 @@ public class MaxProfit_122 {
         return res;
     }
 
-    public static void main(String[] args) {
-        int a = 'a';
-        System.out.println(a);
-        System.out.println((int)'A');
+    // DP
+    public int maxProfit_V2(int[] prices) {
+        if(prices == null || prices.length <= 0){
+            return 0;
+        }
+        int res = 0;
+        int[][] dp = new int[prices.length][2];
+        // 当天结束，不持有股票的收益
+        dp[0][0] = 0;
+        // 当天结束，持有一只股票的收益
+        dp[0][1] = -prices[0];
+        for(int i = 1;i < prices.length;i++){
+            // i天结束，不持有股票的收益 = 前一天不持有股票的收益 / 前一天持有股票，在i天卖出
+            dp[i][0] = Math.max(dp[i - 1][0],dp[i - 1][1] + prices[i]);
+            // i天结束，持有股票的收益 = 前一天结束时持有股票 / 前一天不持有股票(已经卖出) ，并且今天买入
+
+            dp[i][1] = Math.max(dp[i - 1][1],dp[i - 1][0] - prices[i]);
+        }
+        return res;
     }
+
+
 }
