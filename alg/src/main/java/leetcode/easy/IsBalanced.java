@@ -61,7 +61,31 @@ public class IsBalanced {
         return Math.max(getHigh(root.left),getHigh(root.right))+1;
     }
 
-    public boolean isBalancedV2(TreeNode root) {
+
+    private boolean isBalance(TreeNode root){
+        if(root == null){
+            return true;
+        }
+        if(root.left == null && root.right == null){
+            return true;
+        }
+        int left = getHighV2(root.left);
+        int right = getHighV2(root.right);
+        if(Math.abs(left - right) <= 1){
+            return isBalanced(root.left) && isBalanced(root.right);
+        }
+        return false;
+    }
+
+    private int getHighV2(TreeNode root){
+        if(root == null){
+            return 0;
+        }
+        return Math.max(getHighV2(root.left),getHigh(root.right)) + 1;
+    }
+
+
+    public boolean isBalancedV3(TreeNode root) {
         if(root == null){
             return true;
         }
@@ -77,7 +101,7 @@ public class IsBalanced {
         int left = height(root.left);
         int right = height(root.right);
         if(left == -1 || right == -1 || Math.abs(right - left) > 1){
-            return -1;// 这种情况直接掠过
+            return -1;// 这种情况表示整棵树已经不平衡了，没必要重复计算
         }else {
             return Math.max(left,right) + 1;
         }

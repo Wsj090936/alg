@@ -66,4 +66,42 @@ public class ThreeSum {
 
     }
 
+    public List<List<Integer>> threeSumV2(int[] nums){
+        if(nums == null || nums.length <= 0){
+            return new ArrayList<>();
+        }
+        List<List<Integer>> res = new ArrayList<>();
+
+        Arrays.sort(nums);
+        for(int i = 0;i < nums.length;i++){
+            // 去重
+            if(i > 0 && nums[i - 1] == nums[i]){
+                continue;
+            }
+            int k = nums.length - 1;
+            int target = -nums[i];
+            for(int j = 0;j < nums.length;j++){
+                // 去重
+                if(j > 0 && nums[j - 1] == nums[j]){
+                    continue;
+                }
+                // 找相同的
+                while (j < k && nums[j] + nums[k] > target){
+                    k--;
+                }
+                if(j == k){
+                    continue;
+                }
+                if(nums[j] + nums[k] == target){
+                    List<Integer> list = new ArrayList<>();
+                    list.add(i);
+                    list.add(j);
+                    list.add(k);
+                    res.add(list);
+                }
+            }
+        }
+        return res;
+    }
+
 }

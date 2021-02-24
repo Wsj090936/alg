@@ -1,6 +1,7 @@
 package leetcode.mid;
 
 import leetcode.base.TreeNode;
+import sun.reflect.generics.tree.Tree;
 
 /**
  * 剑指 Offer 07. 重建二叉树
@@ -46,4 +47,33 @@ public class BuildTree_offer_07 {
         node.right = buildTree(preorder,inorder,preleft + leftNum + 1,preright,mid + 1,inright);
         return node;
     }
+
+
+
+    public TreeNode buildTreeV2(int[] preorder, int[] inorder) {
+        return buildTreeV2(preorder,inorder,0,preorder.length - 1,0,inorder.length - 1);
+    }
+
+    private TreeNode buildTreeV2(int[] preorder,int[] inorder,int preleft,int preright,int inleft,int inright){
+        if(preleft > preright || inleft > inright){
+            return null;
+        }
+        // 根节点的值位置
+        int root = preorder[preleft];
+        // 中序根节点
+        int midRoot = preleft;
+        for(int i = inleft;i <= inright;i++){
+            if(inorder[i] == root){
+                midRoot = i;
+                break;
+            }
+        }
+        TreeNode node = new TreeNode(root);
+        int leftNum = midRoot - inleft;
+        node.left = buildTreeV2(preorder,inorder,preleft + 1,preleft + leftNum,inleft,midRoot - 1);
+        node.right = buildTreeV2(preorder,inorder,preleft + leftNum + 1,preright,midRoot + 1,inright);
+        return node;
+    }
+
+
 }

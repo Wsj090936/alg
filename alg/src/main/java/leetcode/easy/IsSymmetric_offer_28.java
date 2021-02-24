@@ -60,4 +60,27 @@ public class IsSymmetric_offer_28 {
         }
         return isSymmetric(left.left,right.right) && isSymmetric(left.right,right.left);
     }
+
+
+    public boolean isSymmetricV2(TreeNode root) {
+        if(root == null){
+            return false;
+        }
+        return dofun(root.left,root.right);
+    }
+    private boolean dofun(TreeNode left,TreeNode right){
+        if(left == null && right == null){
+            return true;
+        }
+        if(left == null){
+            return false;
+        }
+        if(right == null){
+            return false;
+        }
+        if(left.val != right.val){
+            return false;
+        }
+        return dofun(left.left,right.right) && dofun(left.right,right.left);
+    }
 }

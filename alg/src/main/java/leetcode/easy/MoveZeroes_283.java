@@ -29,4 +29,27 @@ public class MoveZeroes_283 {
             }
         }
     }
+
+    /**
+     * 移动0
+     * @param nums
+     */
+    public void moveZeroes_V2(int[] nums){
+        if(nums == null || nums.length <= 0){
+            return;
+        }
+        for(int ptr = 0,cur = 0;cur < nums.length;cur++){
+            if(cur != 0){
+                int remp = nums[ptr];
+                nums[ptr] = nums[cur];
+                nums[cur] = remp;
+                ptr++;
+            }
+        }
+
+    }
+
+    public static void main(String[] args) {
+
+    }
 }
